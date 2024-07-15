@@ -40,3 +40,7 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 **After entry**
 ![Screenshot 2024-07-15 121827](https://github.com/user-attachments/assets/9b0abad5-a0e6-42f7-aea2-933fe8cd5696)
 
+## Acknowledgments
+- OpenWeatherMap for providing the weather data API.
+- CODTECH IT SOLUTIONS for the internship opportunity.
+
