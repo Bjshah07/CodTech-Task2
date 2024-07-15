@@ -1,0 +1,82 @@
+<!--
+  Weather Forecast HTML 
+
+  This HTML is used to display the weather forecast for a given city.
+  It includes a search bar to input the city name, an error message for invalid city names,
+  and a weather display section that shows the current temperature, humidity, and wind speed.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!---------Meta tags for character encoding, viewport, and title----------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/weather_icon.png">
+    <title>Weather</title>
+    <!---------Link to external stylesheet----------->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!----------Heading section--------->
+    <div id="heading">
+        <p>Weather forecast</p>
+    </div>
+
+    <!----------Search and weather display section--------->
+    <div class="box">
+
+
+        <!----------Search input and button--------->
+        <div class="search">
+            <input type="text" placeholder="Enter the city name" spellcheck="false">
+            <button><img src="img/search.png"></button>
+        </div>
+
+
+        <!----------Error message for invalid city names--------->
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+
+        <!----------Weather display section--------->
+        <div class="weather">
+
+            <!---------Weather icon--------->
+            <img  class="wicon" src="img/clouds.png">
+
+            <!---------Temperature display------>
+            <h1 class="temp"></h1>
+
+            <!---------City name display--------->
+            <h2 class="city"></h2>
+
+            <!----------Weather details section-------->
+            <div class="detail">
+
+                <!-------Humidity display--------->
+                <div class="col">
+                    <img src="img/humidity.png">
+                    <p class="humd"></p>
+                    <p>Humidity</p>
+                </div>
+
+                <!--------Wind speed display-------->
+                <div class="col">
+                    <img src="img/wind.png">
+                    <p class="speed"></p>
+                    <p>Wind Speed</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-----------Link to external JavaScript file------>
+    <script src="style.js"></script>
+</body>
+
+</html>

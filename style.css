@@ -1,0 +1,176 @@
+/**
+ * Resets default browser styles.
+ */
+ * {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/**
+ * Sets the background color of the body element.
+ */
+body {
+    background-color: rgb(17, 25, 37);
+}
+
+/**
+ * Styles the heading element.
+ */
+#heading {
+    margin: 5vh auto 0 0;
+    color: rgb(201, 218, 229);
+    font-size: 4.5vw;
+}
+
+/**
+ * Styles the box container element.
+ */
+.box {
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    background: linear-gradient(100deg, rgb(36, 174, 82), rgb(31, 168, 181));
+    border-radius: 2vw;
+    padding: 2vw;
+}
+
+/**
+ * Styles the search bar container element.
+ */
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**
+ * Styles the search bar image and input elements.
+ */
+.search img,
+input {
+    height: 3.5vw;
+    cursor: pointer;
+}
+
+/**
+ * Styles the search bar button element.
+ */
+.search button {
+    width: 3.5vw;
+    height: 3.5vw;
+    border: none;
+    border-radius: 50%;
+    background-color: inherit;
+}
+
+/**
+ * Styles the search bar button image element.
+ */
+.search button img {
+    height: 2vw;
+}
+
+/**
+ * Styles the search bar button on hover.
+ */
+.search button:hover {
+    background-color: white;
+}
+
+/**
+ * Styles the search bar input element.
+ */
+.search input {
+    color: rgb(41, 5, 57);
+    font-size: 2vw;
+    font-weight: 500;
+    outline: 0;
+    width: 90%;
+    border-radius: 2vw;
+    border: none;
+    background: linear-gradient(135deg, white, black);
+}
+
+/**
+ * Styles the search bar input placeholder text.
+ */
+.search ::placeholder {
+    color: rgb(35, 14, 44);
+}
+
+/**
+ * Styles the search bar input on hover.
+ */
+.search input:hover {
+    background: linear-gradient(135deg, black, white);
+}
+
+/**
+ * Styles the weather information container element.
+ */
+.weather {
+    color: white;
+    display: none;
+}
+
+/**
+ * Styles the error message container element.
+ */
+.error {
+    color: white;
+    display: none;
+}
+
+/**
+ * Styles the weather information heading elements.
+ */
+.weather h1 {
+    font-size: 5vw;
+}
+
+.weather h2 {
+    font-size: 2.5vw;
+}
+
+/**
+ * Styles the weather icon element.
+ */
+.wicon {
+    width: 13vw;
+}
+
+/**
+ * Styles the weather details container element.
+ */
+.detail {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/**
+ * Styles the weather details column container element.
+ */
+.col {
+    columns: 2;
+    column-gap: 0.5vw;
+}
+
+/**
+ * Styles the weather details icon elements.
+ */
+.col img {
+    width: 4vw;
+}
+
+/**
+ * Styles the weather details paragraph elements.
+ */
+.col p {
+    text-align: left;
+    font-size: 1.5vw;
+}
